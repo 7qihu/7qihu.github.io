@@ -1,37 +1,98 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/7qihu/7qihu.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<!DOCTYPE html>
+<html>
 
-### Markdown
+    <head>
+        <meta charset="UTF-8">
+        <title>index</title>
+        <style>
+            html,
+            body {
+                padding: 0;
+                margin: 0;
+                background: #272727;
+                font: 400 16px/1.7 "Microsoft JhengHei", sans-serif;
+            }
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+            div,ul,li,h1,p,h2{
+                padding: 0;
+                margin: 0;
+            }
+            ul,li{
+                list-style: none;
+            }
+            .main{
+                text-align: center;
+            }
+            .content{
+                background: #fff;
+                padding: 20px;
+                display: inline-block;
+            }
+            .content-top{
+                font-size: 14px;
+            }
+            .content-top h2{
+                background: #FF8901;
+                color: #fff;
+                font-size: 20px;
+                padding: 10px 0;
+                font-weight: normal;
+            }
+            .content-top a{
+                display: block;
+                color: #FF8901;
+                font-style: normal;
+                display: block;
+                margin: 2px 0;
+            }
+            .content-top li{
+                padding: 20px 0;
+                border-bottom: 1px solid #E2E0DE
+            }
+            .main h1{
+                color: #FF8901;
+                font-weight: normal;
+                padding: 40px 0;
+            }
+        </style>
+    </head>
 
-```markdown
-Syntax highlighted code block
+    <body>
+        <div class="main">
+            <h1>富二代 | 地址发布页20181004</h1>
+            <div class="content">
+                <div class="content-top">
+                    <h2>请大家 Ctrl+D 收藏本页</h2>
+                    <ul>
+                        <li>
+                            富二代最新地址
+                            <a href="http://f2dub1.com" target="_blank">http://f2dub1.com</a>
+                        </li>
+                        <li>
+                            富二代备用地址
+                            <a href="http://f2dub2.com" target="_blank">http://f2dub2.com</a>
+                            <a href="http://f2dub3.com" target="_blank">http://f2dub3.com</a>
+							<a href="http://f2dub4.com" target="_blank">http://f2dub4.com</a>
+							<a href="http://f2dub5.com" target="_blank">http://f2dub5.com</a>
+                        </li>
+                        <li>
+                            富二代海外永久地址
+                            <a id='go' href="http://www.fu2d.me" target="_blank">http://www.fu2d.me</a>
+                            <script>
+                                setTimeout(function(){
+                                    document.getElementById('go').click();
+                                },1000)
+                            </script>
+                        </li>
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/7qihu/7qihu.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+                    </ul>
+                    <p>如果以上地址均无法打开，欢迎发送邮件告知： <br>
+                        fu2d5@outlook.com<br>
+                        会自动回复最新地址！</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
